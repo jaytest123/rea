@@ -1,6 +1,4 @@
 ---
- - hosts: rea
-   remote_user: root
-   tasks:
-   - name: Install NGINX
-     ping:
+ - hosts: simple
+   roles: simple_sinatra_app
+
