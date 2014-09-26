@@ -1,4 +1,4 @@
- ---
+---
  - hosts: rea
    remote_user: root
    tasks:
