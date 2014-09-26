@@ -1,0 +1,6 @@
+ ---
+ - hosts: rea
+   remote_user: root
+   tasks:
+   - name: Install NGINX
+     ping
